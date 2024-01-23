@@ -32,10 +32,8 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
-
-        
-
     </style>
+
 </head>
 <body class="font-manrope">
      <header class="container mx-auto px-8 lg:px-24">
@@ -47,7 +45,8 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li class="text-bg-common"><a href="#">Home</a></li>
+                        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Pages</a></li>
                         <li><a href="#">Blog</a></li>
@@ -66,14 +65,14 @@
                   </ul>
                 </div>
                 <div class="navbar-end flex gap-6">
-                    <p><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></p>
+                    <p class="hidden lg:flex"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></p>
                   <p><a class="btn text-white lg:text-xl font-bold bg-bg-common lg:px-6 ">Get Ticket</a></p>
                 </div>
               </div>
         </nav>
         <!-- hero section -->
         <div class="mt-14 relative">
-            <div class="carousel w-full rounded-2xl">
+            <div class="carousel w-full rounded-2xl  max-h-[550px]">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="./Images/1.png" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -83,21 +82,21 @@
                   </div>
                 </div> 
                 <div id="slide2" class="carousel-item relative w-full">
-                  <img src="./Images/1.png" class="w-full" />
+                  <img src="./Images/slider1.jpg" class="w-full object-cover" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a> 
                     <a href="#slide3" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
                 <div id="slide3" class="carousel-item relative w-full">
-                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                    <img src="./Images/slider2.jpg" class="w-full object-cover" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a> 
                     <a href="#slide4" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
                 <div id="slide4" class="carousel-item relative w-full">
-                  <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                    <img src="./Images/slider3.jpg" class="w-full object-cover"/>
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a> 
                     <a href="#slide1" class="btn btn-circle">❯</a>
@@ -107,7 +106,7 @@
               <!-- meet all heros card -->
               <div class="bg-black p-3 lg:p-8 max-w-lg rounded-2xl lg:absolute bottom-8 right-8">
                 <h4 class="text-white text-[17px] lg:text-2xl font-extrabold">Meet all the heroes from the field</h4>
-                <p class="text-[#FFFFFF99] mt-2 lg:mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                <p class="text-[#FFFFFF99] mt-2 lg:mt-4">Learning about and celebrating iconic field hockey players who have had a significant impact on the sport, both historically and in recent times.</p>
             </div>
         </div>
      </header>
@@ -119,7 +118,7 @@
                 <div class="border-t-2 border-dashed shadow-slate-300 mb-8"></div>
                     <div>
                         <h3 class="text-4xl font-extrabold">Professional Hockeys Club</h3>
-                        <p class="font-medium text-[#0d0d1899] mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.</p>
+                        <p class="font-medium text-[#0d0d1899] mt-6"> These clubs often have a rich history, fan base, and play a crucial role in promoting and developing the sport of hockey.</p>
                     </div>
                 <div class="border-t-2 border-dashed shadow-slate-300 mt-8"></div>
             </div>
@@ -128,22 +127,22 @@
                 <div class="flex flex-col items-center space-y-4">
                     <div class="radial-progress text-red-600 text-2xl font-extrabold " style="--value:87;" role="progressbar">87%</div>
                     <h3 class="text-xl font-semibold">Prayer Facility</h3>
-                    <p class="font-medium text-[#0d0d1899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <p class="font-medium text-[#0d0d1899]">Prayer facilities can be found in various places, including religious institutions such as churches, mosques, synagogues, temples, or other places of worship.</p>
                 </div>
                 <div class="flex flex-col items-center space-y-4">
                     <div class="radial-progress text-green-600 text-2xl font-extrabold " style="--value:95;" role="progressbar">95%</div>
                     <h3 class="text-xl font-semibold">Experienced Coach</h3>
-                    <p class="font-medium text-[#0d0d1899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <p class="font-medium text-[#0d0d1899]">An individual who has a significant amount of practical knowledge, skills, and a proven track record in coaching.</p>
                 </div>
                 <div class="flex flex-col items-center space-y-4">
                     <div class="radial-progress text-yellow-400 text-2xl font-extrabold " style="--value:90;" role="progressbar">90%</div>
                     <h3 class="text-xl font-semibold">Senior Player</h3>
-                    <p class="font-medium text-[#0d0d1899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <p class="font-medium text-[#0d0d1899]">Senior players have accumulated a considerable amount of playing time and have likely competed at various levels.</p>
                 </div>
                 <div class="flex flex-col items-center space-y-4">
                     <div class="radial-progress text-blue-400 text-2xl font-extrabold " style="--value:80;" role="progressbar">80%</div>
                     <h3 class="text-xl font-semibold">Training Ground</h3>
-                    <p class="font-medium text-[#0d0d1899]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <p class="font-medium text-[#0d0d1899]">Facilities are equipped with tools and equipment tailored to the sport, such as goalposts, nets, cones, weights, and other training aids.</p>
                 </div>
             </div>
         </section>
@@ -154,7 +153,7 @@
                 <div class="border-t-2 border-dashed shadow-slate-300 mb-8"></div>
                     <div>
                         <h3 class="text-4xl font-extrabold">Program Sections</h3>
-                        <p class="font-medium text-[#0d0d1899] mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.</p>
+                        <p class="font-medium text-[#0d0d1899] mt-6"> A hockey club may vary depending on the club's structure, goals, and operational model.</p>
                     </div>
                 <div class="border-t-2 border-dashed shadow-slate-300 mt-8"></div>
             </div>
@@ -165,8 +164,7 @@
                         <div class="absolute inset-0 bg-gray-800 bg-opacity-50 rounded-2xl"></div>
                         <div class="space-y-5 relative z-10">
                             <h4 class="text-3xl font-extrabold text-white">Junior Program</h4>
-                        <p class="text-white font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <p class="text-white font-medium">Emphasizes fundamental skill development, introducing <br> players to the basics of the sport.</p>
                         <button class="btn border-none text-white lg:text-xl font-bold bg-bg-common lg:px-6">Register Now!</button>
                         </div>
                     </div>
@@ -176,8 +174,7 @@
                         <div class="absolute inset-0 bg-gray-800 bg-opacity-50 rounded-2xl"></div>
                         <div class="space-y-5 relative z-10">
                             <h4 class="text-3xl font-extrabold text-white">Teenager Program</h4>
-                        <p class="text-white font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <p class="text-white font-medium"> Focuses on advancing players' skills and understanding <br> of the game, preparing them for higher-level competition.</p>
                         <button class="btn border-none text-white lg:text-xl font-bold bg-bg-common lg:px-6">Register Now!</button>
                         </div>
                     </div>
@@ -188,8 +185,7 @@
                         <div class="absolute inset-0 bg-gray-800 bg-opacity-50 rounded-2xl"></div>
                         <div class="space-y-5 relative z-10">
                             <h4 class="text-3xl font-extrabold text-white">Professional Program</h4>
-                        <p class="text-white font-medium max-w-lg">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <p class="text-white font-medium max-w-lg">Includes elements such as contract negotiations, sports psychology, and other aspects relevant to a professional athlete's career.</p>
                         <button class="btn border-none text-white lg:text-xl font-bold bg-bg-common lg:px-6">Register Now!</button>
                         </div>
                     </div>
@@ -203,7 +199,7 @@
                 <div class="border-t-2 border-dashed shadow-slate-300 mb-8"></div>
                     <div>
                         <h3 class="text-center text-4xl font-extrabold">Our New Products</h3>
-                        <p class="text-center font-medium text-[#0d0d1899] mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.</p>
+                        <p class="text-center font-medium text-[#0d0d1899] mt-6">We are thrilled to announce the launch of our latest additions -a lineup of innovative and exciting products <br> designed to enhance  the overall experience for our players, fans, and the entire hockey community.</p>
                     </div>
                 <div class="border-t-2 border-dashed shadow-slate-300 mt-8"></div>
             </div>
@@ -423,7 +419,7 @@
                 <div class="border-t-2 border-dashed shadow-slate-300 mb-8"></div>
                     <div>
                         <h3 class="text-4xl font-extrabold">Clients Question</h3>
-                        <p class="font-medium text-[#0d0d1899] mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.</p>
+                        <p class="font-medium text-[#0d0d1899] mt-6">We appreciate your interest in our club, and we are committed to providing our players with the best equipment to succeed.</p>
                     </div>
                 <div class="border-t-2 border-dashed shadow-slate-300 mt-8"></div>
             </div>
@@ -440,7 +436,7 @@
                                     Our Equipment
                                 </div>
                                 <div class="collapse-content"> 
-                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                  <p class="font-medium text-[#0d0d1899]">Our players use high-performance hockey sticks from reputable brands. These sticks are selected based on player preferences, position-specific needs, and the latest technological advancements in stick design.</p>
                                 </div>
                               </div>
                               <div class="divider m-0"></div> 
@@ -450,7 +446,7 @@
                                     Hockey Training
                                 </div>
                                 <div class="collapse-content"> 
-                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                  <p class="font-medium text-[#0d0d1899]">Incorporate aerobic exercises like running, cycling, or interval training to improve endurance, crucial for the fast-paced nature of hockey.</p>
                                 </div>
                               </div>
                               <div class="divider  m-0"></div> 
@@ -460,7 +456,7 @@
                                     Private Lessons
                                 </div>
                                 <div class="collapse-content"> 
-                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                  <p class="font-medium text-[#0d0d1899]">Clearly define what you want to achieve with private lessons. Whether it's improving skating, shooting accuracy, or overall game understanding, having specific goals will guide the lessons.</p>
                                 </div>
                               </div>
                               <div class="divider  m-0"></div> 
@@ -470,7 +466,7 @@
                                     Ski Touring
                                 </div>
                                 <div class="collapse-content"> 
-                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                  <p class="font-medium text-[#0d0d1899]">Ski touring involves specialized equipment, including lightweight skis with touring bindings, climbing skins, boots designed for both uphill and downhill travel, and adjustable poles.</p>
                                 </div>
                               </div>
                               <div class="divider  m-0"></div> 
@@ -480,7 +476,7 @@
                                     Booking
                                 </div>
                                 <div class="collapse-content"> 
-                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                  <p class="font-medium text-[#0d0d1899]">Explore our website or contact our customer service team to learn about the range of activities and services offered by our hockey club.</p>
                                 </div>
                               </div>
                               <div class="divider  m-0"></div> 
@@ -490,7 +486,8 @@
                                     Pricings
                                 </div>
                                 <div class="collapse-content"> 
-                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                  <p class="">Prices are subject to change based on seasonal promotions or special events.
+                                    For detailed pricing or to inquire about customized packages, please contact our booking team .</p>
                                 </div>
                               </div>
                           </div>
@@ -505,7 +502,7 @@
                 <div class="border-t-2 border-dashed shadow-slate-300 mb-8"></div>
                     <div>
                         <h3 class="text-4xl font-extrabold">Get In Touch</h3>
-                        <p class="font-medium text-[#0d0d1899] mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.</p>
+                        <p class="font-medium text-[#0d0d1899] mt-6"> We're excited to connect with you and provide any information or assistance you may need.</p>
                     </div>
                 <div class="border-t-2 border-dashed shadow-slate-300 mt-8"></div>
             </div>
@@ -522,13 +519,13 @@
                         </div>
                         <div class="bg-[#f8fdf0] p-8 rounded-2xl">
                             <img src="./Images/Group 1171275318.png" alt="">
-                            <p class="text-[#0d0d1242] font-normal">Phone Number:</p>
-                            <p class="font-extrabold text-lg">(+62) 123-321-543</p>
+                            <p class="text-[#0d0d1242] font-normal">Email:</p>
+                            <p class="font-extrabold text-lg">hockeys@support.com</p>
                         </div>
                         <div class="bg-[#629cf31a] p-8 rounded-2xl">
                             <img src="./Images/Group 1171275321.png" alt="">
-                            <p class="text-[#0d0d1242] font-normal">Phone Number:</p>
-                            <p class="font-extrabold text-lg">(+62) 123-321-543</p>
+                            <p class="text-[#0d0d1242] font-normal">Location:</p>
+                            <p class="font-extrabold text-lg">152/1 Mohakhali Wireless Gate</p>
                         </div>
                     </div>
                  </div>
@@ -588,7 +585,7 @@
                 <div class="footer p-10 container mx-auto  mt-24  px-10 lg:px-24  text-white">
                     <aside class="space-y-5 ">
                      <h3 class="text-3xl font-extrabold ">Get In Touch</h3>
-                      <p class="font-medium text-base text-[#ffffff99]">Dit amet consectetur. Condimentum  adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin.</p>
+                      <p class="font-medium text-base text-[#ffffff99]">Our team is here and ready to assist. Looking forward to connecting with you!</p>
                       <div class="flex items-center gap-4">
                         <img src="./Images/minimessageicon.png" alt="">
                         <p class="font-medium text-base text-[#ffffff99]">hockeys@support.com</p>
