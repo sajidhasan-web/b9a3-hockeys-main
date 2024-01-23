@@ -32,13 +32,21 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+
+        /* Override dark mode styles */
+         @media (prefers-color-scheme: dark) {
+          body {
+              background-color: #fff !important; 
+              color: #333 !important; 
+               }
+             }
     </style>
 
 </head>
 <body class="font-manrope">
      <header class="container mx-auto px-8 lg:px-24">
         <nav>
-            <div class="navbar bg-base-100">
+            <div class="navbar">
                 <div class="navbar-start">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -66,7 +74,7 @@
                 </div>
                 <div class="navbar-end flex gap-6">
                     <p class="hidden lg:flex"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></p>
-                  <p><a class="btn text-white lg:text-xl font-bold bg-bg-common lg:px-6 ">Get Ticket</a></p>
+                  <p><a class="btn text-white lg:text-xl font-bold bg-bg-common lg:px-6">Get Ticket</a></p>
                 </div>
               </div>
         </nav>
